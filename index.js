@@ -82,10 +82,16 @@ function prev(){
 var date = new Date();
 console.log(date);
 var year = date.getFullYear();
-console.log(year); */
+console.log(year); 
 document.getElementById("h1").innerHTML="hello";
 var js=document.getElementById("js");
 js.innerHTML="LoveScropt";
 
 document.getElementsByTagName("h2")[0].innerHTML="hello";
-document.getElementsByClassName("h3")[0].innerHTML="Hi";
+document.getElementsByClassName("h3")[0].innerHTML="Hi"; */
+document.querySelector("#pid").innerHTML="Hello";
+function myMessage(){
+    // alert("hello");
+    var changePa=document.querySelector("#para");
+    changePa.innerHTML='This is test paragraph. This is test paragraph. This is test paragraph. This is test paragraph. This is test paragraph.';
+};
