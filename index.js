@@ -89,9 +89,16 @@ js.innerHTML="LoveScropt";
 
 document.getElementsByTagName("h2")[0].innerHTML="hello";
 document.getElementsByClassName("h3")[0].innerHTML="Hi"; */
-document.querySelector("#pid").innerHTML="Hello";
+
+/*document.querySelector("#pid").innerHTML="Hello";
 function myMessage(){
     // alert("hello");
     var changePa=document.querySelector("#para");
     changePa.innerHTML='This is test paragraph. This is test paragraph. This is test paragraph. This is test paragraph. This is test paragraph.';
 };
+*/
+var headline = document.createElement('h1');
+var text=document.createTextNode("This is additional headline.");
+headline.appendChild(text);
+var addHeadline = document.getElementById('crud')[3];
+headline.appendChild('')
